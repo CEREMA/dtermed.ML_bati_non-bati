@@ -59,7 +59,14 @@ model.add(Dense(1))
 model.add(Activation('sigmoid'))
 
 model.summary()
-model.compile(loss='binary_crossentropy',optimizer='adam',metrics=['accuracy'])```
+model.compile(loss='binary_crossentropy',optimizer='adam',metrics=['accuracy']) ```
+
+
+
+
+
+
+
 
 Ce modèle est constitué de 5 blocs, à savoir :
 - trois blocs de **convolution-pooling** qui servent à interpréter les images et en extraire les features, soit les motifs caractéristiques, plus ou moins abstraits à mesure que l'on va profondément dans le réseau.
