@@ -17,10 +17,10 @@ Ne disposant pas de catalogue d'images directement disponible sur internet (il e
    - croisement géographique avec les bâtiments BDTopo pour catégoriser les dalles en 2 classes:
    
 --> des dalles "bati"    
-
+![alt tag](https://user-images.githubusercontent.com/19548578/48620419-68609780-e9a0-11e8-9125-da7b59e8cf9d.png)
 
 --> et des dalles "non-bati"
-
+![alt tag](https://user-images.githubusercontent.com/19548578/48620419-68609780-e9a0-11e8-9125-da7b59e8cf9d.png)
 
 La requête que nous avons utilisée est très simple (peut-être trop) car elle se contente de dire si un bâti (ou une portion de ce dernier) est présent sur le carreau. En réalité, pour avoir un lot de meilleure qualité, un petit nettoyage serait à réaliser afin de supprimer:
 - les détections abusives/manquantes (dues à un écart d'actualité entre l'ortho-photo et la couche de bâtiments)
