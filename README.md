@@ -77,9 +77,12 @@ Cela prend généralement du temps et s'apparente davantage à un art qu'à une 
 
 Le test du modèle est effectué sur 100 nouvelles images, n'ayant servi ni à l'entraînement, ni à la validation, mais qui ont tout de même été catégorisées lors de la création du jeu de données. 
 Le résultat est rendu sous la forme d'images annotées avec la prédiction d'appartenance à l'une ou l'autre des 2 classes attendues: bâti / non-bâti
-![alt tag](https://user-images.githubusercontent.com/19548578/48621277-47e60c80-e9a3-11e8-8f3e-53b6a780cb11.png)
+![alt tag](https://user-images.githubusercontent.com/19548578/48621346-8b407b00-e9a3-11e8-8272-706d49ee0385.PNG)
 
+A ce stade, il convient de vérifier la pertinence de la prédiction en fonction de la catégorisation initiale.
 
+Exemple de prédictions correctes :
+![alt tag](https://user-images.githubusercontent.com/19548578/48621346-8b407b00-e9a3-11e8-8272-706d49ee0385.PNG)
 
 
 
