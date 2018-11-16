@@ -67,5 +67,21 @@ Ce modèle est constitué de 5 blocs, à savoir :
 - deux **couches entièrement connectées**, dont la première sert de couche intermédiaire avec la dernière qui sert à la classification (avec un neurone de sortie pour sortie binaire)
 La courbe obtenue à l'issue de l'entraînement donne des renseignements sur la pertinence du réseau entraîné, et peut mettre en évidence certains biais comme un sur-apprentissage du réseau de neurones (lorsque le réseau apprend par cœur et n'arrive pas à généraliser ses connaissances à de nouvelles images qu'on lui soumet).
 
-![alt tag](https://user-images.githubusercontent.com/19548578/48621256-3a308700-e9a3-11e8-9270-5951afa05b90.png)
+![alt tag](https://user-images.githubusercontent.com/19548578/48621277-47e60c80-e9a3-11e8-8f3e-53b6a780cb11.png)
+
+La visualisation des courbes de précision et de coût, pour les lots d'entraînement et de validation, permet de voir la performance du modèle et le nombre d'epochs à compter duquel le modèle atteint ses meilleures performances.
+En général, à la suite de cela, on modifie le nombre de blocs, le type de fonctions à utiliser, la profondeur du réseau de neurones, de façon à obtenir un modèle plus performant. L'atteinte d'un "meilleur" modèle, à savoir un qui ne sur-apprend pas, et qui réponde aussi bien aux données d'entraînement que de validation, se fait par une succession d'itérations et d'essais à la suite desquels on modifie les hyper-paramètres du réseau de neurones.
+Cela prend généralement du temps et s'apparente davantage à un art qu'à une science exacte.
+
+# Test du modèle
+
+Le test du modèle est effectué sur 100 nouvelles images, n'ayant servi ni à l'entraînement, ni à la validation, mais qui ont tout de même été catégorisées lors de la création du jeu de données. 
+Le résultat est rendu sous la forme d'images annotées avec la prédiction d'appartenance à l'une ou l'autre des 2 classes attendues: bâti / non-bâti
+![alt tag](https://user-images.githubusercontent.com/19548578/48621277-47e60c80-e9a3-11e8-8f3e-53b6a780cb11.png)
+
+
+
+
+
+
 
