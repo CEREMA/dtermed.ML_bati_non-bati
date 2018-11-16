@@ -61,5 +61,5 @@ model.add(Activation('sigmoid'))
 model.summary()
 model.compile(loss='binary_crossentropy',optimizer='adam',metrics=['accuracy'])|
 
-'''hhhuhouh'''
+```bloc de code``` 
 
