@@ -85,7 +85,18 @@ Exemple de prédictions correctes :
 ![alt tag](https://user-images.githubusercontent.com/19548578/48621288-4fa5b100-e9a3-11e8-9e91-6038d2f2f94f.png)
 
 ...et quelques erreurs évidentes:
-![alt tag](https://user-images.githubusercontent.com/19548578/48621288-4fa5b100-e9a3-11e8-9e91-6038d2f2f94f.png)
+![alt tag](https://user-images.githubusercontent.com/19548578/48621318-6ba95280-e9a3-11e8-9415-ebfe7600c96a.png)
 
+La présence d'erreurs de ce type peut permettre de mettre en évidence certains défauts:
+- jeu de données pas totalement propre (modèle entraîné avec des images mal classées au départ)
+- mauvais paramétrage du modèle
 
+Nous allons voir comment y remédier.
+
+# Importance du paramétrage du modèle:
+En utilisant les mêmes jeux de données de départ, la définition du modèle aura une incidence sur le résultat produit. L'amélioration de la précision se fera donc par **itérations successives**, comme dit précédemment (petite partie "bidouille").
+Attention: le nombre de "paramètres" à déterminer lors des calculs en dépendra, ce qui aura une  une incidence non négligeable sur les **temps de calculs** (pouvant aller de quelques minutes à plusieurs heures)
+
+Voici les résultats produits par 3 codes différents:
+![alt tag](https://user-images.githubusercontent.com/19548578/48621318-6ba95280-e9a3-11e8-9415-ebfe7600c96a.png)
 
