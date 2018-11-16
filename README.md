@@ -17,7 +17,7 @@ Ne disposant pas de catalogue d'images directement disponible sur internet (il e
    - croisement géographique avec les bâtiments BDTopo pour catégoriser les dalles en 2 classes:
    
 --> des dalles "bati"    
-![alt tag](https://user-images.githubusercontent.com/19548578/48620419-68609780-e9a0-11e8-9125-da7b59e8cf9d.png)
+![alt tag](https://user-images.githubusercontent.com/19548578/48621056-9f37ad00-e9a2-11e8-8feb-0e854ffa0cbe.png)
 
 --> et des dalles "non-bati"
 ![alt tag](https://user-images.githubusercontent.com/19548578/48620419-68609780-e9a0-11e8-9125-da7b59e8cf9d.png)
