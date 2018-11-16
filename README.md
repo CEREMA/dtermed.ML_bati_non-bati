@@ -98,5 +98,33 @@ En utilisant les mêmes jeux de données de départ, la définition du modèle a
 Attention: le nombre de "paramètres" à déterminer lors des calculs en dépendra, ce qui aura une  une incidence non négligeable sur les **temps de calculs** (pouvant aller de quelques minutes à plusieurs heures)
 
 Voici les résultats produits par 3 codes différents:
-![alt tag](https://user-images.githubusercontent.com/19548578/48621318-6ba95280-e9a3-11e8-9415-ebfe7600c96a.png)
+![alt tag](https://user-images.githubusercontent.com/19548578/48621335-8085e600-e9a3-11e8-979b-f914e1b6e912.png)
 
+# Pour aller plus loin...
+La **qualité** et la **précision** du résultat dépendent de certains facteurs:
+
+- avoir un **jeu de données le plus propre possible**, sous peine de donner de mauvaises informations lors de l'apprentissage et générer des erreurs de classification en sortie (garbage in – garbage out)
+--> solutions: 
+- avoir le meilleur couplage possible entre image aérienne et bâti (choisir les bons millésimes, d'un point de vue chronologique)
+- supprimer les images propices à mauvaise interprétation en intervenant sur des critères tels que la surface de bâti présente sur le carreau, sa localisation relative sur ce dernier...
+
+- **veiller à obtenir des taux de précision cohérents** (normalement quasi-identiques) sur le jeu d'entraînement et le jeu de validation, afin de ne pas rester en situation de sur-apprentissage ou de sous-apprentissage
+--> solutions: 
+- jouer avec des paramètres architecturaux comme la profondeur du réseau de neurones, le nombre de filtres, le nombre de neurones dans les couches entièrement connectées,
+- utiliser des techniques de régularisation dont la plus fameuse, le dropout, qui consiste à éteindre aléatoirement certains neurones
+- choisir le bon optimiseur (Adam étant un bon choix par défaut)
+
+# Questions fréquentes
+
+# Quel matériel pour faire de la classification d'images?
+L'apprentissage du modèle est une opération qui requiert de **grosses capacités de calculs**, mais cela peut néanmoins être réalisé sur un ordinateur portable (moyennant quelques heures d'attente des résultats).
+Pour se familiariser avec le machine learning, il existe également des **solutions en ligne** (par exemple les notebooks Jupyter), permettant d'utiliser les outils installés sur le cloud et sans aucune configuration sur poste. 
+Exemple: **Colaboratory** (https://colab.research.google.com/notebooks/welcome.ipynb)
+
+# Quelle est la taille minimale des jeux de données?
+Il est tout à fait possible de pouvoir entraîner un modèle de classification d'images avec **peu d'images**  au départ (par exemple: 2000 images pour l'entraînement + 800 pour la validation). La production d'un propre jeu de données est une opération qui peut s'avérer coûteuse, et des fonctions d'augmentation d'images permettent de le rendre plus robuste.
+En revanche, il est important d'avoir un **jeu de données bien proportionné** (en classes et en apprentissage / validation).
+
+# Où trouver des jeux de données d'images/ modèles pré-entraînés?
+De nombreux **jeux de données** (datasets) sont disponibles en téléchargement sur **internet**, dans plusieurs catégories: banques d'images (MNIST, CIFAR, Pascal VOC, ImageNET, MS Coco...), mais aussi des données vidéos, textuelles ou faciales...
+On trouve également sur internet (par exemple https://modelzoo.co/) des **modèles pré-entraînés** (l'entraînement étant une opération qui peut être longue) et prêts à l'emploi pour certains types de jeux de données. 
