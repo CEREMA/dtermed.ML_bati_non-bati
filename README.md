@@ -82,9 +82,10 @@ Le résultat est rendu sous la forme d'images annotées avec la prédiction d'ap
 A ce stade, il convient de vérifier la pertinence de la prédiction en fonction de la catégorisation initiale.
 
 Exemple de prédictions correctes :
-![alt tag](https://user-images.githubusercontent.com/19548578/48621346-8b407b00-e9a3-11e8-8272-706d49ee0385.PNG)
+![alt tag](https://user-images.githubusercontent.com/19548578/48621288-4fa5b100-e9a3-11e8-9e91-6038d2f2f94f.png)
 
-
+...et quelques erreurs évidentes:
+![alt tag](https://user-images.githubusercontent.com/19548578/48621288-4fa5b100-e9a3-11e8-9e91-6038d2f2f94f.png)
 
 
 
