@@ -59,5 +59,12 @@ model.add(Dense(1))
 model.add(Activation('sigmoid'))
 
 model.summary()
-model.compile(loss='binary_crossentropy',optimizer='adam',metrics=['accuracy'])``` 
+model.compile(loss='binary_crossentropy',optimizer='adam',metrics=['accuracy'])```
+
+Ce modèle est constitué de 5 blocs, à savoir :
+- trois blocs de **convolution-pooling** qui servent à interpréter les images et en extraire les features, soit les motifs caractéristiques, plus ou moins abstraits à mesure que l'on va profondément dans le réseau.
+- deux **couches entièrement connectées**, dont la première sert de couche intermédiaire avec la dernière qui sert à la classification (avec un neurone de sortie pour sortie binaire)
+La courbe obtenue à l'issue de l'entraînement donne des renseignements sur la pertinence du réseau entraîné, et peut mettre en évidence certains biais comme un sur-apprentissage du réseau de neurones (lorsque le réseau apprend par cœur et n'arrive pas à généraliser ses connaissances à de nouvelles images qu'on lui soumet).
+
+
 
