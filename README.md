@@ -61,3 +61,5 @@ model.add(Activation('sigmoid'))
 model.summary()
 model.compile(loss='binary_crossentropy',optimizer='adam',metrics=['accuracy'])|
 
+| Tables | Are | Cool | |----------|:-------------:|------:| | col 1 is| left-aligned | $1600 |
+
