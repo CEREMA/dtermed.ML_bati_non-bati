@@ -27,5 +27,15 @@ La requête que nous avons utilisée est très simple (peut-être trop) car elle
 - les dalles où des bâtiments sont réellement présents au sol mais, soit invisibles sur la photo depuis le ciel (à cause du couvert végétal), soit représentant une trop petite surface (d'où la possibilité de mettre des seuils minimums lors de la catégorisation établie précédemment)
 
 Nous avons établi une bibliothèque comprenant au total 12100 images: 10000 pour entraîner le modèle , 2000 pour le valider, et 100 pour les tests.
-![alt tag](https://user-images.githubusercontent.com/19548578/48620419-68609780-e9a0-11e8-9125-da7b59e8cf9d.png)
+![alt tag](https://user-images.githubusercontent.com/19548578/48621256-3a308700-e9a3-11e8-9270-5951afa05b90.png)
+
+# Préparation du modèle
+
+Les différents paramètres du modèle sont définis dans un script python. On y retrouve par exemple:
+- une #fonction d'augmentation d'image#: des actions de rotation, décalage, effet miroir, étirement ou zoom permettent d'augmenter significativement le nombre d'images en entrée (sans toucher à la bibliothèque) et d'éliminer certains biais engendrés par l'orientation ou la position de certains éléments au sein de l'image
+- la définition des classes recherchées, aussi appelée labels ou étiquettes (bati/non-bati)
+- l'emplacement des données d'entrée
+- l'enchaînement des blocs de fonctions de notre réseau de neurones
+
+Exemple d'enchaînement:
 
