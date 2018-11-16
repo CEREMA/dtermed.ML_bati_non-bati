@@ -32,7 +32,7 @@ Nous avons établi une bibliothèque comprenant au total 12100 images: 10000 pou
 # Préparation du modèle
 
 Les différents paramètres du modèle sont définis dans un script python. On y retrouve par exemple:
-- une #fonction d'augmentation d'image#: des actions de rotation, décalage, effet miroir, étirement ou zoom permettent d'augmenter significativement le nombre d'images en entrée (sans toucher à la bibliothèque) et d'éliminer certains biais engendrés par l'orientation ou la position de certains éléments au sein de l'image
+- une fonction d'augmentation d'image: des actions de rotation, décalage, effet miroir, étirement ou zoom permettent d'augmenter significativement le nombre d'images en entrée (sans toucher à la bibliothèque) et d'éliminer certains biais engendrés par l'orientation ou la position de certains éléments au sein de l'image
 - la définition des classes recherchées, aussi appelée labels ou étiquettes (bati/non-bati)
 - l'emplacement des données d'entrée
 - l'enchaînement des blocs de fonctions de notre réseau de neurones
