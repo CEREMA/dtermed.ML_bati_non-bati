@@ -39,7 +39,7 @@ Les différents paramètres du modèle sont définis dans un script python. On y
 - l'enchaînement des **blocs de fonctions** de notre réseau de neurones
 
 Exemple d'enchaînement:
-|model.add(Conv2D(32,(3,3), input_shape=(img_width, img_height, 3)))
+```model.add(Conv2D(32,(3,3), input_shape=(img_width, img_height, 3)))
 model.add(Activation('relu'))
 model.add(MaxPooling2D(pool_size=(2,2)))
 
@@ -59,7 +59,5 @@ model.add(Dense(1))
 model.add(Activation('sigmoid'))
 
 model.summary()
-model.compile(loss='binary_crossentropy',optimizer='adam',metrics=['accuracy'])|
-
-```bloc de code``` 
+model.compile(loss='binary_crossentropy',optimizer='adam',metrics=['accuracy'])``` 
 
