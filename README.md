@@ -116,15 +116,15 @@ La **qualité** et la **précision** du résultat dépendent de certains facteur
 
 # Questions fréquentes
 
-# Quel matériel pour faire de la classification d'images?
+**- Quel matériel pour faire de la classification d'images?**
 L'apprentissage du modèle est une opération qui requiert de **grosses capacités de calculs**, mais cela peut néanmoins être réalisé sur un ordinateur portable (moyennant quelques heures d'attente des résultats).
 Pour se familiariser avec le machine learning, il existe également des **solutions en ligne** (par exemple les notebooks Jupyter), permettant d'utiliser les outils installés sur le cloud et sans aucune configuration sur poste. 
 Exemple: **Colaboratory** (https://colab.research.google.com/notebooks/welcome.ipynb)
 
-# Quelle est la taille minimale des jeux de données?
+**- Quelle est la taille minimale des jeux de données?**
 Il est tout à fait possible de pouvoir entraîner un modèle de classification d'images avec **peu d'images**  au départ (par exemple: 2000 images pour l'entraînement + 800 pour la validation). La production d'un propre jeu de données est une opération qui peut s'avérer coûteuse, et des fonctions d'augmentation d'images permettent de le rendre plus robuste.
 En revanche, il est important d'avoir un **jeu de données bien proportionné** (en classes et en apprentissage / validation).
 
-# Où trouver des jeux de données d'images/ modèles pré-entraînés?
+**- Où trouver des jeux de données d'images/ modèles pré-entraînés?**
 De nombreux **jeux de données** (datasets) sont disponibles en téléchargement sur **internet**, dans plusieurs catégories: banques d'images (MNIST, CIFAR, Pascal VOC, ImageNET, MS Coco...), mais aussi des données vidéos, textuelles ou faciales...
 On trouve également sur internet (par exemple https://modelzoo.co/) des **modèles pré-entraînés** (l'entraînement étant une opération qui peut être longue) et prêts à l'emploi pour certains types de jeux de données. 
