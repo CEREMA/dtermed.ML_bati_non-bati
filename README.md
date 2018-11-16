@@ -27,6 +27,7 @@ La requête que nous avons utilisée est très simple (peut-être trop) car elle
 - les dalles où des bâtiments sont réellement présents au sol mais, soit invisibles sur la photo depuis le ciel (à cause du couvert végétal), soit représentant une trop petite surface (d'où la possibilité de mettre des seuils minimums lors de la catégorisation établie précédemment)
 
 Nous avons établi une bibliothèque comprenant au total 12100 images: 10000 pour entraîner le modèle , 2000 pour le valider, et 100 pour les tests.
+
 ![alt tag](https://user-images.githubusercontent.com/19548578/48621256-3a308700-e9a3-11e8-9270-5951afa05b90.png)
 
 # Préparation du modèle
@@ -38,4 +39,25 @@ Les différents paramètres du modèle sont définis dans un script python. On y
 - l'enchaînement des **blocs de fonctions** de notre réseau de neurones
 
 Exemple d'enchaînement:
+|model.add(Conv2D(32,(3,3), input_shape=(img_width, img_height, 3)))
+model.add(Activation('relu'))
+model.add(MaxPooling2D(pool_size=(2,2)))
+
+model.add(Conv2D(32,(3,3), input_shape=(img_width, img_height, 3)))
+model.add(Activation('relu'))
+model.add(MaxPooling2D(pool_size=(2,2)))
+
+model.add(Conv2D(64,(3,3), input_shape=(img_width, img_height, 3)))
+model.add(Activation('relu'))
+model.add(MaxPooling2D(pool_size=(2,2)))
+
+model.add(Flatten())
+model.add(Dense(64))
+model.add(Activation('relu'))
+model.add(Dropout(0.5))
+model.add(Dense(1))
+model.add(Activation('sigmoid'))
+
+model.summary()
+model.compile(loss='binary_crossentropy',optimizer='adam',metrics=['accuracy'])|
 
