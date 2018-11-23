@@ -104,8 +104,12 @@ Voici les résultats produits par 3 codes différents:
 La **qualité** et la **précision** du résultat dépendent de certains facteurs:
 
 - avoir un **jeu de données le plus propre possible**, sous peine de donner de mauvaises informations lors de l'apprentissage et générer des erreurs de classification en sortie (garbage in – garbage out).
-
+Solutions:
      --> avoir le meilleur couplage possible entre image aérienne et bâti (choisir les bons millésimes, d'un point de vue chronologique)
+     --> supprimer les images propices à mauvaise interprétation en intervenant sur des critères tels que la surface de bâti présente sur le carreau, sa localisation relative sur ce dernier...
+     
+     --> avoir le meilleur couplage possible entre image aérienne et bâti (choisir les bons millésimes, d'un point de vue chronologique)
+     
      --> supprimer les images propices à mauvaise interprétation en intervenant sur des critères tels que la surface de bâti présente sur le carreau, sa localisation relative sur ce dernier...
 
 - **veiller à obtenir des taux de précision cohérents** (normalement quasi-identiques) sur le jeu d'entraînement et le jeu de validation, afin de ne pas rester en situation de sur-apprentissage ou de sous-apprentissage.
