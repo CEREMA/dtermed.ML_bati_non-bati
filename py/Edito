@@ -1,2 +1,6 @@
 Dans ce dossier vous trouverez:
-- le script python (issu d'un des nombreux tests que nous avons effectué)
+
+- le script python "1_keras_sigmoid.py" (issu d'un des nombreux tests que nous avons effectué)
+* Attention à bien reiseigner les chemins d'emplacement des images et de sauvegarde des poids et modèles produits
+
+- le script "3_test_network.py" permet de tester le modèle sur une image nouvelle (non utilisée pour les phases d'entrainement et de validation)
