@@ -1,6 +1,14 @@
 Dans ce dossier vous trouverez:
 
 - le script python "1_keras_sigmoid.py" (issu d'un des nombreux tests que nous avons effectué)
-* Attention à bien reiseigner les chemins d'emplacement des images et de sauvegarde des poids et modèles produits
+* Attention à bien renseigner les chemins d'emplacement des images et de sauvegarde des poids et modèles produits
 
-- le script "3_test_network.py" permet de tester le modèle sur une image nouvelle (non utilisée pour les phases d'entrainement et de validation)
+- le script "3_test_network.py" permet de tester le modèle sur une image nouvelle (non utilisée pour les phases d'entrainement/validation)
+* ce script python doit être lancé via une ligne de commande comportant:
+- les noms et emplacements du modèle à utiliser
+- puis des photos de départ et d'arrivée
+C:\python36-64\python c_test_network.py --model model\bati_not_bati_lenet.model	--image ..\examples\image.png
+
+- la batch "3_test_network_keras_sigmoid.bat" permet d'automatiser (de façon brute) le test du modèle sur l'ensemble des images 
+fournies dans le répertoire "valid" (catégorisée pour faciliter l'examen des résultats)
+* Attention à bien renseigner les chemins d'emplacement des différents éléments (modèle, image depart/arrivée) 
