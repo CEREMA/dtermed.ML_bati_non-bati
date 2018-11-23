@@ -110,6 +110,11 @@ Solutions:
      --> avoir le meilleur couplage possible entre image aérienne et bâti (choisir les bons millésimes, d'un point de vue chronologique)
      --> supprimer les images propices à mauvaise interprétation en intervenant sur des critères tels que la surface de bâti présente sur le carreau, sa localisation relative sur ce dernier...
      
+     
+
+     - --> avoir le meilleur couplage possible entre image aérienne et bâti (choisir les bons millésimes, d'un point de vue chronologique)
+     --> supprimer les images propices à mauvaise interprétation en intervenant sur des critères tels que la surface de bâti présente sur le carreau, sa localisation relative sur ce dernier...
+     
      --> avoir le meilleur couplage possible entre image aérienne et bâti (choisir les bons millésimes, d'un point de vue chronologique)
      
      --> supprimer les images propices à mauvaise interprétation en intervenant sur des critères tels que la surface de bâti présente sur le carreau, sa localisation relative sur ce dernier...
