@@ -110,9 +110,9 @@ La **qualité** et la **précision** du résultat dépendent de certains facteur
 
 - **veiller à obtenir des taux de précision cohérents** (normalement quasi-identiques) sur le jeu d'entraînement et le jeu de validation, afin de ne pas rester en situation de sur-apprentissage ou de sous-apprentissage
 --> solutions: 
-- jouer avec des paramètres architecturaux comme la profondeur du réseau de neurones, le nombre de filtres, le nombre de neurones dans les couches entièrement connectées,
-- utiliser des techniques de régularisation dont la plus fameuse, le dropout, qui consiste à éteindre aléatoirement certains neurones
-- choisir le bon optimiseur (Adam étant un bon choix par défaut)
+     - jouer avec des paramètres architecturaux comme la profondeur du réseau de neurones, le nombre de filtres, le nombre de neurones dans les couches entièrement connectées,
+     - utiliser des techniques de régularisation dont la plus fameuse, le dropout, qui consiste à éteindre aléatoirement certains neurones
+     - choisir le bon optimiseur (Adam étant un bon choix par défaut)
 
 # Questions fréquentes
 
