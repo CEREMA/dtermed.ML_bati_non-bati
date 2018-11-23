@@ -13,4 +13,3 @@ C:\python36-64\python c_test_network.py --model model\bati_not_bati_lenet.model	
 fournies dans le répertoire "valid" (catégorisée pour faciliter l'examen des résultats)
 * Attention à bien renseigner les chemins d'emplacement des différents éléments (modèle, image depart/arrivée)
 
-- le modèle résultant ainsi que les poids
