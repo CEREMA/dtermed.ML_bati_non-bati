@@ -118,6 +118,16 @@ Solutions:
 `* utiliser des techniques de régularisation dont la plus fameuse, le dropout, qui consiste à éteindre aléatoirement certains neurones`
 `* choisir le bon optimiseur (Adam étant un bon choix par défaut)`
 
+* Une puce
+
+* Une autre puce
+
+`* Une sous-puce`
+
+`* Une autre sous-puce`
+* Et encore une autre puce !
+
+
 # Questions fréquentes
 
 **- Quel matériel pour faire de la classification d'images?**
